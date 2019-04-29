@@ -4,7 +4,12 @@
 #includes <stdio>
 using namespace std
 
+void outl(char* str)
+{
+	cout << str << endl;
+}
+
 int main()
 {
-	cout << "Hello, World!" << endl;
+	outl("Hello, World!");
 }
